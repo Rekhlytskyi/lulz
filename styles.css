@@ -1,0 +1,249 @@
+body {
+    font-family: 'Abel', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    width: 1600px;
+}
+/* Header styles */
+header {
+    background-color: #ffff;
+    display: flex;
+    flex-direction: row;
+}
+
+a {
+    text-decoration-line: none;
+}
+
+.header_logo {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    /* identical to box height */
+    letter-spacing: 0.03em;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    font-family: Roboto;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+li {
+    list-style: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+}
+
+.header_list_text {
+    color: #212121;
+}
+
+.header_contacts {
+   
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+}
+
+.header_contacts_text {
+    color: #757575;
+}
+
+/* Main */
+/* Section 1 */
+
+h1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    height: 120px;
+    width: 700px;
+    padding: 200px 0 30px 450px;
+    color: #ffff;
+    margin: 0;
+}
+
+.order_button {
+    background-color: #2196F3;
+    color: #ffff;
+    width: 200px;
+    height: 50px;
+    margin: 30px 700px 250px 700px;
+}
+
+.button_text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.06em;
+    text-align: center;
+}
+
+/* Advantages section */
+
+.advantages_section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 95px 215px;
+}
+
+.advantages_item {
+    width: 270px;
+    height: 101px;
+    
+}
+
+.advantages_heading {
+    margin: 0 0 10px 0;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+}
+
+.advantages_text {
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #757575;
+    margin: 0;
+}
+
+/* images section */
+
+.images_section {
+    margin: 0 215px;
+    margin-bottom: 95px;
+}
+
+.images_section_heading {
+    margin-bottom: 50px;
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.images {
+    display: flex;
+    flex-direction: row; 
+}
+
+/* teams section */
+
+.team_section {
+    background-color: #F5F4FA;
+    margin-top: 95px;
+}
+
+.team_section_heading {
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-bottom: 50px;
+    padding-top: 95px;
+    margin-top: 0px;
+}
+
+.team_para {
+    display: flex;
+    flex-direction: row;
+    margin-left: 215px;
+    padding-bottom: 95px;
+}
+
+.team_unit {
+    background-color: #ffff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.team_unit_name {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+.team_unit_text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;
+    margin: 0 0 30px 0;
+}
+
+/* footer */
+
+footer {
+    background-color: #2F303A;
+}
+
+.address {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em
+}
+
+.footer_logo {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #ffff;
+}
+
+.address_text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
